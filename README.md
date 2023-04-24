@@ -8,7 +8,7 @@ import openai
 # Inicializar el motor de síntesis de voz
 engine = pyttsx3.init()
 
-# Configurar opciones de voz (opcional)
+# Configurar opciones de voz
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
 engine.setProperty('rate', 150)
