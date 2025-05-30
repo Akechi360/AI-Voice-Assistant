@@ -14,7 +14,7 @@ engine.setProperty('voice', voices[0].id)
 engine.setProperty('rate', 150)
 
 # Configurar la API Key de OpenAI
-openai.api_key = "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"
+openai.api_key = xxxxxxxxxxxx
 
 # Establecer el idioma
 language = 'es-ES'
